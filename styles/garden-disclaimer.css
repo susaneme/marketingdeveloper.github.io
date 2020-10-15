@@ -1,0 +1,49 @@
+<style>
+.group .card .photo {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: white;
+  border: solid 2px #444;
+  box-shadow: 3px 3px #222;
+  border-radius: 50%;
+  margin-top: -100px;
+  margin-bottom: 4%;
+  display: inline-block;
+}
+
+.group {
+    display: flex;
+    justify-content:space-around
+}
+
+.group .card {
+    text-align: center;
+    width: 90%;
+    padding: 30px 20px;
+    border: solid 2px;
+    justify-content: space-between;
+    box-shadow: 10px 10px#222;
+}
+
+.group.card.photo img {
+    border-radius: 50%;
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+
+.group #zero {
+    background-color: #e3f9e8;
+    color: #000;
+}
+  
+  .group #two {
+    background-color: #fff3e0;
+    color: #000;
+}
+  
+  .group #one {
+    background-color: #f5fae3;
+    color: #000;
+}
+</style>
